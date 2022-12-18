@@ -2,20 +2,10 @@ import { useState,  useEffect } from 'react';
 
 import MovieCard from './MovieCard';
 
-// 233194a0 
-
 import './App.css';
 import SearchIcon from './search.svg'; 
 
 const API_URL = 'http://www.omdbapi.com?apikey=233194a0';
-
-const movie1 = {
-    'Title': 'movie title',
-    'Year': 'movie year',
-    'imdbID': 'tt2586634',
-    'Type': 'movie',
-    'Poster': 'N/A'
-}
 
 const App = () => {
 
@@ -26,10 +16,6 @@ const App = () => {
         const response = await fetch(`${API_URL}&s=${title}`);
         const data = await response.json();
         
-
-        // console.log(data.Search); 
-        // console.log(JSON.stringify(data.Search)); 
-        // console.log(JSON.stringify(data)); 
         setMovies(data.Search); 
     };
 
