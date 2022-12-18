@@ -1,8 +1,8 @@
 {
-  "name": "my-app",
+  "name": "movie-app",
   "version": "0.1.0",
+  "homepage": "https://test.and0ri.com/",
   "private": true,
-  "homepage": "https://and0ri.com/movie-app/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
