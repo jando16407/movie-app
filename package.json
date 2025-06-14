@@ -1,7 +1,7 @@
 {
   "name": "movie-app",
   "version": "0.1.0",
-  "homepage": "https://and0ri.com/folder/movie-app-react/",
+  "homepage": "https://movie-app-react-jet-beta.vercel.app/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
